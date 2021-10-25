@@ -32,14 +32,14 @@ echo -e "${GREEN}time difference of each death shouldnt be bigger than 10ms${NOR
 ./philo 2 60 60 60
 
 echo -e "${RED}4 410 200 200 ${YELLOW} no philo should die ${NORMAL}"
-./philo 4 410 200 200
+# ./philo 4 410 200 200
 
 echo -e "${RED}5 800 200 200 ${YELLOW} no philo should die ${NORMAL}"
-./philo 5 800 200 200
+# ./philo 5 800 200 200
 
 echo -e "${RED}5 800 200 200 7 ${YELLOW} no philo should die \n ${NORMAL}"
 echo -e "${YELLOW} the simulation should stop when all the philosopher haseaten at least 7 times each${NORMAL}"
-./philo 5 800 200 200 7
+# ./philo 5 800 200 200 7
 
 # ./philo 5 800 200 200 7 > x.txt
 # grep -w "1 is eating" x.txt | wc -l
